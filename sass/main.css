@@ -1,0 +1,66 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f0f2;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.background-image {
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  width: auto;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Хедер */
+.aside {
+  display: flex;
+  /* Стили для фішок */
+}
+.aside .players {
+  margin-top: 38px;
+}
+.aside .players .player {
+  position: absolute;
+  z-index: 200;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  width: 48px;
+}
+.aside .players #avat1 {
+  left: 100px;
+  fill: #c74439;
+}
+.aside .players #avat2 {
+  left: 150px;
+  fill: #6e9c9d;
+}
+.aside .players #avat3 {
+  left: 200px;
+  fill: #782d79;
+}
+.aside .players #avat4 {
+  left: 250px;
+  fill: #4493c5;
+}
+.aside .players #avat5 {
+  left: 300px;
+  fill: #e4ce20;
+}/*# sourceMappingURL=main.css.map */
